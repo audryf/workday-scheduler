@@ -123,7 +123,7 @@ for (var i = 0; inputEl.length - 1; i++) {
 }
 
 // Reset on new day
-if (now > 1) {
+if (now > 18) {
 	localStorage.clear();
 	loadTasks();
 }
